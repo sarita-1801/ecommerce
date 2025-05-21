@@ -72,6 +72,8 @@
     </div>
 </div>
 
+<!-- My name is sarita i m a teacher -->
+
 <style>
     .product-details{
         text-align: center;
