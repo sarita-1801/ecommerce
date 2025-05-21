@@ -1,0 +1,49 @@
+/* Carousel Image Styling */
+.carousel-inner img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover; /* Ensures the image fits within the specified dimensions */
+    margin: 0 auto; /* Centers the image */
+}
+
+/* Carousel Caption Styling */
+.carousel-caption {
+    background-color: lightcyan; /* Semi-transparent background for captions */
+    color: #fff; /* Text color */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.carousel{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Carousel Indicators */
+.carousel-indicators{
+    position: relative;
+    top: 213px; /* Position it below the carousel */
+    margin-top: 20px; /* Adds space between the button and indicators */
+    justify-content: center; /* Centers the indicators */
+}
+
+
+.carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #666; /* Default indicator color */
+    margin: 5px;
+}
+
+.carousel-indicators .active {
+    background-color: #000; /* Active indicator color */
+}
+
+/* Carousel Controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent control background */
+    border-radius: 50%;
+    padding: 10px;
+}

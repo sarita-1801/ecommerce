@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: slategray;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Main Content Styles */
+main {
+    padding: 40px 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+h2 {
+    color: black;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #343a40;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+p {
+    color: #6c757d;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.point li {
+    background: url('data:image/svg+xml;charset=UTF8,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="%23007bff" viewBox="0 0 8 8"%3E%3Cpath d="M2.5 0l-2 3h4l-2 3z"/%3E%3C/svg%3E') no-repeat left center;
+    background-size: 15px;
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+
+
+
+/* Buttons */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
